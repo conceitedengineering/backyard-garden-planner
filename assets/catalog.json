@@ -1,0 +1,48 @@
+{
+  "plants": [
+    {
+      "id": "california-lilac",
+      "label": "California Lilac",
+      "image": "assets/plants/California%20lilac.png",
+      "defaultScale": 1.2
+    },
+    {
+      "id": "monkeyflower",
+      "label": "Monkeyflower",
+      "image": "assets/plants/Monkeyflower.png",
+      "defaultScale": 1.1
+    },
+    {
+      "id": "red-yarrow",
+      "label": "Red Yarrow",
+      "image": "assets/plants/Red%20Yarrow.png",
+      "defaultScale": 1.2
+    },
+    {
+      "id": "california-fuchsia",
+      "label": "California Fuchsia",
+      "image": "assets/plants/california%20fuchsia.png",
+      "defaultScale": 1.15
+    },
+    {
+      "id": "coyote-mint",
+      "label": "Coyote Mint",
+      "image": "assets/plants/coyote%20mint.png",
+      "defaultScale": 1.1
+    },
+    {
+      "id": "seaside-daisy",
+      "label": "Seaside Daisy",
+      "image": "assets/plants/seaside%20daisy%20png.png",
+      "defaultScale": 1.05
+    }
+  ],
+  "pavers": [
+    {
+      "id": "pavers",
+      "label": "Concrete Paver",
+      "image": "assets/pavers/Pavers.png",
+      "defaultScale": 1
+    }
+  ]
+}

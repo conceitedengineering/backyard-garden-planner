@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backyard Garden Planner MVP</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.164.1/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.164.1/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="app">
+      <aside class="panel">
+        <section>
+          <h2>Plants</h2>
+          <div id="plantsShelf" class="shelf"></div>
+        </section>
+
+        <section class="controls">
+          <label for="scaleRange">Scale</label>
+          <input id="scaleRange" type="range" min="0.3" max="3" step="0.1" value="1" />
+          <div class="row">
+            <button id="deleteButton" type="button">Delete</button>
+            <button id="clearButton" type="button">Clear</button>
+          </div>
+        </section>
+      </aside>
+
+      <main class="viewportWrap">
+        <canvas id="viewport"></canvas>
+      </main>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
